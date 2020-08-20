@@ -1,4 +1,4 @@
-def hald_diamond(N):
+def half_diamond(N):
 	for i in range(2*N):
 		if i + 1 <= N:
 			print("*" * (i+1))
